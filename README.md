@@ -20,10 +20,7 @@ If Python is not installed, you can download it from [Python.org](https://www.py
 
 ### 1. Clone the Repository
 Clone the repository to your local machine and navigate to the project folder:
-```
-git clone https://github.com/your-username/moon-segmentation-tool.git
-cd moon-segmentation-tool
-```
+
 ### 2. Create a Virtual Environment (optional but recommended)
 To keep dependencies isolated, it's a good idea to create a virtual environment:
 ```
