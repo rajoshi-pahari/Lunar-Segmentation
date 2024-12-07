@@ -4,7 +4,7 @@ from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import StreamingResponse
 from PIL import Image
 from tensorflow import keras
-from utils import input_image, map_colours
+from utils import input_img, map_colours
 
 # Initialize the FastAPI app
 app = FastAPI()
@@ -35,7 +35,7 @@ def preprocess_image(file_data):
     Returns:
     - np.ndarray: The processed image ready for prediction.
     """
-    return input_image(file_data)
+    return input_img(file_data)
 
 def generate_mask(input_tensor):
     """

@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow as tf
 
 
-def input_image(img_path):
+def input_img(img_path):
     """
     Prepares an image for a segmentation model by resizing, cropping, 
     and normalizing it to [0, 1].
